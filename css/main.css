@@ -198,6 +198,23 @@ body{
     margin:50px 0;
     box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.5);
 }
+.contact_ws{
+    background-color: #2e8c3b;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(/img/whatsapp.svg);
+    background-repeat: no-repeat;
+    background-size:20%;
+    background-position: center;
+    position:fixed;
+    width:100px;
+    height:100px;
+    bottom:40px;
+    right:40px;
+    z-index: 1000;
+
+}
 .footer{
     max-width: 100%;
     background-color: var(--AzulOscuro);
