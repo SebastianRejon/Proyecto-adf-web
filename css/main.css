@@ -50,6 +50,11 @@ body{
     padding:15px;
     text-align: center;
 }
+.item_menu a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
 .item_menu:hover{
     transition: 0.4s;
     background-color: var(--naranja);
@@ -178,6 +183,9 @@ body{
     align-content: center;
     justify-content: center;
 }
+.article_item2 a{
+    margin: 0 25px;
+}
 .article_img{
     margin-top: 15px;
     width: 100%;
@@ -199,13 +207,10 @@ body{
     box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.5);
 }
 .contact_ws{
-    background-color: #2e8c3b;
     width: 100px;
     height: 100px;
-    border-radius: 50%;
     background-image: url(/img/whatsapp.svg);
     background-repeat: no-repeat;
-    background-size:20%;
     background-position: center;
     position:fixed;
     width:100px;
@@ -217,7 +222,7 @@ body{
 }
 .footer{
     max-width: 100%;
-    background-color: var(--AzulOscuro);
+    background-color: var(--naranja);
     color: var(--AzulClaro);
     /* background-color: chartreuse; */
     display: flex;
