@@ -1,0 +1,85 @@
+/* paleta colores */
+:root{
+    --negro:#121015;
+    --grisOscuro:#2a2731;
+    --grisClaro:#7b7883;
+    --grisMClaro:#cac6d0;
+    --verde:#ccff00;
+    --blanco:#ffffff;
+    --hfooter:100px;
+    --htitle:100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--grisOscuro);
+}
+.title{
+    width: 100vw;
+    height: var(--htitle);
+    font-family:'Black Ops One';
+    font-size: larger;
+    display: grid;
+    place-items: center;
+    background-color: var(--negro);
+    color:var(--verde);
+    text-transform: uppercase;
+}
+.container{
+    font-family: 'Sora';
+    font-size: medium;
+    color:var(--grisMClaro);
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    width: 100%;
+    height: calc((100vh) - (var(--hfooter)) - (var(--htitle)));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;  
+    min-width: 400px;
+    min-height: 400px;
+    background-color: var(--negro);
+    text-align: center;
+    padding: auto;
+    margin: auto 20px;
+    border-radius: 10px;
+
+}
+.item:hover{
+    transition: 0.4s;
+    transform: scale(110%);
+    border: 5px solid var(--grisMClaro);
+}
+.back{
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--grisMClaro);
+    color: var(--blanco);
+}
+.footer{
+    width: 100%;
+    height: var(--hfooter);
+    background-color: var(--negro);
+    color:var(--blanco);
+    text-align: center;
+    padding: 20px 0;
+}
