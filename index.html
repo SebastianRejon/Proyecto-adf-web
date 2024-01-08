@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.png" />
     <title>adf-azucaredulcorante</title>
 </head>
 <body>
@@ -15,20 +16,19 @@
             <h1>logotipo</h1>
         </header> -->
         <nav class="nav">
-            <a href="" class="item_menu_logo"><img src="img/ADF.jpg" alt="" height="50px" width="auto"></a>
+            <a href="index.html" class="item_menu_logo"><img src="img/ADF.jpg" alt="" height="50px" width="auto"></a>
             <ul class="list_menu">
                 <li class="item_menu"><a href="index.html">HOME</a></li>
                 <li class="item_menu"><a href="productos.html">PRODUCTOS</a></li>
                 <li class="item_menu"><a href="servicios.html">SERVICIOS</a></li>
                 <li class="item_menu"><a href="clientes.html">CLIENTES</a></li>
                 <li class="item_menu"><a href="marcas.html">MARCAS</a></li>
-                <li class="item_menu"><a href="#">CONTACTO</a></li>
+                <li class="item_menu"><a href="#contacto" class="link_transition">CONTACTO</a></li>
             </ul>
         </nav>
         <section class="secction">
             <!-- link a WS -->
-            <!-- <a class="contact_ws" href="https://wa.me/+5493412286322&text=Hola somos adf!" target="blanck" ></a> -->
-            <a class="contact_ws" href="https://api.whatsapp.com/send?phone=+5493412286322&text="Hola! busco información sobre sus productos y precios." target="blanck" ></a>
+            <a class="contact_ws" href="https://api.whatsapp.com/send?phone=3412550062" target="blanck" ></a>
             <!-- hero de la web -->
             <article class="article_container">
                     <img class="img_nosotros" src="img/ADF.jpg" alt="" height="400px" width="auto">
@@ -37,45 +37,43 @@
                         <p>Desde hace más de dos décadas, en ADF-NEVA SWEET, nos enorgullece nuestra labor en la elaboración y fraccionamiento de endulzantes. Nuestra misión es clara y se basa en valores fundamentales que nos han guiado desde el principio.</p>
                         <p>En ADF-NEVA SWEET, nos comprometemos a ofrecer productos de la más alta calidad, garantizando la satisfacción de nuestros clientes y consumidores. A lo largo de este tiempo, hemos perfeccionado nuestra labor en el fraccionamiento, dedicándonos a brindar endulzantes que se adaptan a las necesidades específicas de nuestros clientes.</p>
                     </div>
+                    <img class="img_nosotros" src="img/orgullosamente_argentino.png" alt="" height="400px" width="auto">
             </article>
             <!-- vista previa productos -->
             <article class="article">
                 <h2>ALGUNOS DE NUESTROS PRODUCTOS</h2>
                 <div class="article_container">
+                    <p class="act_carrusel"><</p>
                     <div class="article_item">
                         <h3>Azúcar Glass</h3>
                         <p>Descubre la dulzura fina con nuestro azúcar impalpable premium. Ideal para repostería, se disuelve fácilmente y garantiza postres irresistibles.</p>
-                        <a href="#">VER MAS</a>
+                        <a href="productos.html" class="article_link">VER MAS</a>
                     </div>
                     <div class="article_item">
                         <h3>Azúcar Refinada</h3>
                         <p>El toque clásico para tus recetas. Nuestra azúcar refinada, pura y versátil, eleva cada creación culinaria con su dulzura inconfundible.</p>
-                        <a href="#">VER MAS</a>
+                        <a href="productos.html" class="article_link">VER MAS</a>
                     </div>
                     <div class="article_item">
                         <h3>Edulcorante</h3>
                         <p>Disfruta de lo dulce sin calorías. Nuestro edulcorante artificial ofrece el mismo sabor, sin remordimientos. Endulza tu vida de manera saludable.</p>
-                        <a href="#">VER MAS</a>
+                        <a href="productos.html" class="article_link">VER MAS</a>
                     </div>
                     <div class="article_item">
                         <h3>Azúcar Light</h3>
                         <p>Disfruta de la dulzura ligera con nuestro azúcar light. Menos calorías, mismo sabor delicioso. La elección inteligente para un estilo de vida equilibrado. El doble de sabor con menos calorias.</p>
-                        <a href="#">VER MAS</a>
+                        <a href="productos.html" class="article_link">VER MAS</a>
                     </div>
+                    <p class="act_carrusel">></p>    
                 </div> 
             </article>
             <article class="article">
                 <h2>SERVICIOS</h2>
                 <div class="article_container">
                     <div class="article_item1">
-                        <h3>TU PRODUCTO LISTO</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloremque perferendis mollitia molestiae voluptatum reprehenderit officiis saepe libero, repellat ea vitae perspiciatis? Dolorum error maiores accusantium modi minus earum illo.</p>
-                        <a href="#">VER MAS</a>
-                    </div>
-                    <div class="article_item1">
                         <h3>MANDANOS TU LOGO Y NOS ENCARGAMOS DEL RESTO</h3>
                         <p>Desde nuestros comienzos trabajamos también con marcas de terceros. Si tienes una marca o un logo nosotros nos encargamos de producir el producto que desees.</p>
-                        <a href="#">VER MAS</a>
+                        <a href="servicios.html" class="article_link">VER MAS</a>
                     </div>    
                 </div>
             </article>
@@ -85,7 +83,7 @@
                 </div>
             </article>
             <article class="article">  
-                <div class="article_container">
+                <div id="contacto" class="article_container">
                     <div class="article_item2">
                         <div class="article_img"><a href="#" class="media"><img src="img/phone.svg" height="50px" width="50px" alt=""></a></div>
                         <div class="article_description">
@@ -131,8 +129,7 @@
             </div>
             <div class="article_item2">
                 <p>
-                    <a href=""><img src="img/facebook.svg" alt="" height="50px" width="auto"></a>
-                    <a href=""><img src="img/instagram.svg" alt="" height="50px" width="auto"></a>
+                    <a href="https://www.instagram.com/adf.nevasweet/?igsh=dTJrMDg0cjlyNmk3" target="blanck"><img src="img/instagram.svg" alt="" height="50px" width="auto"></a>
                 </p> 
         </div>           
         </footer>
