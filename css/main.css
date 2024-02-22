@@ -5,6 +5,7 @@
     --negro:#000000;
     --verde:#2e8c3b;
     --blanco:#eeeeee;
+    --gris:#F2F4F4;
 }
 *{
     margin:0;
@@ -18,9 +19,6 @@
     font-weight: bold;
     font-size: 40px;
 }
-/* body{
-    background-color: var(--AzulClaro);
-} */
 .container{
     max-width: var(--wContainer);
     height: auto;
@@ -95,6 +93,55 @@
     align-items: center;
     justify-content: space-around;
 }
+/* parte carrousel */
+.slider-frame {
+    width: 90vw;
+    margin: 0  auto; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0 20px auto; 
+
+}
+.slider_item{
+    background-image: url(../img/0.png);
+    background-position: center;
+    width: 960px;
+    height: 960px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content:flex-end;
+    color: var(--negro);
+}    
+.slider_txt{
+    font-size: 20px;
+    text-align: justify;
+    padding: 25px;
+    text-shadow: 1px 1px 2px var(--gris);
+}
+.slider_item1 h2{
+    font-size: 78px;
+}
+.slider_action {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.slider_action :hover{
+    background-color: var(--gris);
+    transition: 0.4s;
+}
+
+/* fin carrouser */
 .article_container1{
     width: 60%;
     height: 100%;
@@ -146,6 +193,10 @@
     font-size: 50px;
     margin-bottom: 10px;
 
+}
+.item_menu_logo img{
+    padding: 5px 25px;
+    border-radius: 50%;
 }
 .article_container2 p{
     text-align: justify;
@@ -210,6 +261,7 @@
     background-color: var(--naranja);
     padding: 15px 100px;
     border-radius: 25px;
+    margin: 30px 0; 
 }
 .article_link:hover{
     transition: 0.45s;
@@ -315,22 +367,30 @@
     font-weight: bolder;
 }
 .product_container{
+    background-color: var(--gris);
     margin: 20px auto;
     width: 60%;
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
+    border-radius: 5px;
 
 }
 .product_img{
     width: 200px;
     height: 200px;
+    padding: 0 20px;
 }
 .product_paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
     height: 200px;
+    padding: 0 10px;
 }
 .product_paragraph h2{
     display: flex;
@@ -338,7 +398,7 @@
     justify-content: center;
     align-content: center;
     /* align-items: center; */
-    margin: 0 10px;
+    margin: 30px 10px;
     text-align: left;
     padding-left: 20px;
 }
